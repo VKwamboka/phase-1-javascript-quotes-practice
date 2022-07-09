@@ -17,6 +17,7 @@ If you already have it installed, run the server by: `$ json-server --watch db.j
 
 ## Build a simple, Event-driven, JavaScript DOM-modifying application
 
+
 * Populate page with quotes with a `GET` request to
   `http://localhost:3000/quotes?_embed=likes`. The query string in this URL tells 
   `json-server` to include the likes for a quote in the JSON of the response. You
